@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+.navbar #img{
+    width: 8%;
+   margin-left: 300px;
+}
+.icons{
+    color: black;
+}
+.nav-li
+{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.7em;
+   
+}
+.nav-li a{
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 10px;
+}
+.nav-ul{
+    display: flex;
+}
+input[type=search]
+{
+    background-image: url(./images/photos/search.jpg);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 1.5px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background-color: rgb(246, 240, 240);
+   
+}
+.nav-menu img{
+    width: 25px;
+    border-radius: 50px;
+}
+.soft-image img{
+    border-radius: 50%;
+    width: 160px;
+    border: 7px rgb(198, 195, 195);
+    border-style: double;
+    
+    
+}
+.soft-right a{
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+}
+.softclub{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+#soft{
+    font-size: 2em;
+    padding-right: 40px;    
+}
+.soft-right{
+   
+    margin-left: 150px;
+}
+.sms{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+.pub{
+    font-size: 1.3em;
+    padding-top: 20px; 
+}
+.pub span{
+    padding-left: 50px;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    line-height: 27px;
+    font-size: 1.2em;
+}
+#club{
+    font-size: 1.5em;
+    color: blue;
+}
+#edu{
+    opacity: 0.5;
+}
+.course-text1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.day{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.day img{
+width: 50%;
+border-bottom: 1px solid black;
+padding-bottom: 20px;
+}
+hr{
+   
+    width: 6%;
+    border-bottom: 2px solid;
+    margin-left: 700px;
+}
+.reels{
+    margin-left: 615px;
+    padding: 15px 15px;
+}
+
+.reels span{
+    padding-left: 50px;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    
+}
+.post-img{
+    padding: 10px;
+}
+.post-img1{
+    padding: 10px;
+}
+
+.icon{
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    color: rgb(255, 255, 255);
+    opacity: 0; 
+}
+.icon1{
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    color: rgb(255, 255, 255);
+    opacity: 0; 
+}
+.post-img:hover .icon{
+    opacity: 1;
+}
+.post-img1:hover .icon1{
+    opacity: 1;
+}
+    
